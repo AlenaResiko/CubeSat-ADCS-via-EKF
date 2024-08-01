@@ -1,11 +1,13 @@
 function [H_out] = H(in_vector,B_o)
-% H is linearization of h_t function (which maps state to predicted
-% measurement).
-% Returns a [6x7] matrix.
+% H is linearization of h_t function (which maps state to predict measurement).
+% H is Jacobian of h(x) w.r.t. x.
 %
 % Input:
 % in_vector - state vector [7x1].
 % B_o - observed measurement from Magnetic Field block in NED frame.
+%
+% Returns:
+% [6x7] Jaconbian matrix.
 
 q = in_vector(1:4);
 w = in_vector(5:7);
