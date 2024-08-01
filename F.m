@@ -1,11 +1,14 @@
 function [F_out] = F(in_vector,J1,J2,J3,tStep)
 % F is linearization of state transition function.
-% F is Jacobian of [q w]^T w.r.t. [q w]^T
+% F is Jacobian of f(x) w.r.t. x.
 %
 % Input:
 % in_vector - state vector [7x1].
 % J1, J2, J3 - moments of inertia along principal axes.
 % tStep - duration of one ADCS cycle.
+% 
+% Returns:
+% [7x7] Jacobian matrix.
 
 q = in_vector(1:4);
 w = in_vector(5:7);
