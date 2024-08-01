@@ -1,7 +1,7 @@
 clear all; %clear all variables from previous runs
 
 %save simulation outputs to produce results
-num_iterations = 1; % number of iteration of the simulation to run
+num_iterations = 100; % number of iteration of the simulation to run
 x_list = zeros(7,num_iterations); % time series of the estimated state vector 
 s_list = zeros(7,7,num_iterations); % time series of the estimated covariance
 q_rotate_list = zeros(4,num_iterations); % time series of the quaternion offset from target
