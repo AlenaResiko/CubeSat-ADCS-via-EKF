@@ -1,6 +1,6 @@
 function [A] = transformationMatrix(q)
-% Returns matrix that transforms vector into q's quaternion system
-% from orbital to body
+% Returns matrix that transforms vector `from Body to NED frame.
+% Return [3x3] orthogonal matrix.
 q1 = q(1);
 q2 = q(2);
 q3 = q(3);
