@@ -14,4 +14,6 @@ Here are the figures showing that it works bla bla blah.
 
 Cite MATLAB.
 
-Requirements for ToolBox.
+Requirements for ToolBox: .. (warning: you need a license).
+
+Here is a video showing that simulation works: .. .
