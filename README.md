@@ -8,12 +8,11 @@ Paper link: (to be added).
 This code was developed by Alena Chan and Ruimian Zheng.
 Authors can be reached at alena.chan@columbia.edu and ruimian.zheng@columbia.edu.
 
-This simulation should be run from . file.
+This simulation should be run from 'Script_Multiplicative_FullSystem.m' file which calls 'Multiplicative_Kalman_FullSystem.slxc'.
 
-Here are the figures showing that it works bla bla blah.
+Attached are figures showing that our EKF improve accuracy of attitude determination.
 
-Cite MATLAB.
+This software was developed in MATLAB, The MathWorks Inc. (2024). Optimization Toolbox version: 9.4 (R2024b), Natick, Massachusetts: The MathWorks Inc. https://www.mathworks.com
+Note that this requires 2024b license.
 
-Requirements for ToolBox: .. (warning: you need a license).
-
-Here is a video showing that simulation works: .. .
+[to add - video demo]
