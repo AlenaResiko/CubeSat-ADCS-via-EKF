@@ -16,3 +16,6 @@ This software was developed in MATLAB, The MathWorks Inc. (2024). Optimization T
 Note that this requires 2024b license.
 
 [to add - video demo]
+
+Note:
+- The noise of the measurement should be set to higher value, since otherwise Kalman filter will rely on measurement. Hence for low values of R Kalman Filter doesn't change much the predicted value as has almost no impact on accuracy.
